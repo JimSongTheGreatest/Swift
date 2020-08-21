@@ -102,36 +102,6 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="138.61607142857142"/>
         </scene>
-        <!--Tip Calculator-->
-        <scene sceneID="fzV-aC-ub8">
-            <objects>
-                <viewController id="VcJ-e6-NKW" customClass="ViewController" customModule="Tip_Calculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="h18-kl-5hl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <gestureRecognizers/>
-                        <viewLayoutGuide key="safeArea" id="eJ3-gc-4Ai"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="bXd-4V-U7x" appends="YES" id="72R-9B-0QT"/>
-                        </connections>
-                    </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="fwk-iT-LI0"/>
-                    <connections>
-                        <outlet property="billField" destination="b6V-Tx-DwC" id="Y8G-Nj-EhT"/>
-                        <outlet property="tipLabel" destination="gnE-Sb-ckm" id="bmZ-cZ-lry"/>
-                        <outlet property="totalLabel" destination="mMN-2q-pPA" id="zdy-Rg-Ea1"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="44r-lg-zO2" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="bXd-4V-U7x">
-                    <connections>
-                        <action selector="onTap:" destination="VcJ-e6-NKW" id="Uid-IJ-QnN"/>
-                    </connections>
-                </tapGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="1952.1739130434785" y="137.94642857142856"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Aps-fJ-d2y">
             <objects>
